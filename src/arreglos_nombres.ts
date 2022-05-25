@@ -14,5 +14,5 @@ function arreglo_nombres(cantidad: number) {
 
 btnDatos1.addEventListener("click", () => {
   let cantidad: number = cant.value;
-  console.log(arreglo_nombres(cantidad));
+  arreglo_nombres(cantidad);
 });
